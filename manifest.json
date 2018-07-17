@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Cronometer Extras",
+    "version": "1.0",
+    "description": "Allows for adding multiple foods and exercises without reopening the modal box on cronometer.com",
+    "content_scripts": [
+        {
+            "matches": ["*://*.cronometer.com/*"],
+            "js": ["cronometer_extras.js"]
+        }
+    ]
+}
